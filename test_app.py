@@ -1,7 +1,7 @@
 from app import add, subtract
 
 def test_add():
-       if add(5, 6) == 10:
+       if add(5, 9) == 10:
               print("Sum: ",add(5,5))
               print("SUCESS")
        else:
