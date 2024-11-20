@@ -5,7 +5,7 @@ def test_add():
               print("Sum: ",add(5,5))
               print("SUCESS")
        else:
-              print(AssertionError())
+              print("FAILURE")
   
 def test_subtract():
        assert subtract(10, 5) == 5
